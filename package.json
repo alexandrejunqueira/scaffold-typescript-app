@@ -1,7 +1,7 @@
 {
-  "name": "cvf-api",
+  "name": "scaffold-typescript-app",
   "version": "1.0.0",
-  "description": "API do Campus Virtual",
+  "description": "scaffold",
   "private": "true",
   "scripts": {
     "test": "vitest",
