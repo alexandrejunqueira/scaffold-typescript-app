@@ -4,8 +4,10 @@
   "description": "API do Campus Virtual",
   "private": "true",
   "scripts": {
-    "prepare": "husky install",
-    "lint": "eslint . --ext ts"
+    "lint": "eslint . --ext ts",
+    "clean": "npx rimraf dist/*",
+    "build": "npm run clean && tsup src",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.ts": "eslint --fix"
